@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+pyodbc
+langgraph
+openai
+scikit-learn
+python-dotenv

@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IncidentAI</title><link rel="stylesheet" href="/static/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script></head><body>
+<header><div class="logo"><img src="/static/assets/logo.png" alt="IncidentAI" onerror="this.replaceWith(document.createTextNode('IncidentAI'))"></div>
+<div class="sim"><span>Simulate incident</span><button data-s="db_connection">DB connections</button><button data-s="bad_deployment">Bad deployment</button><button data-s="memory_leak">Memory leak</button><button data-s="slow_query">Slow query</button></div></header>
+<main><aside id="list"></aside><section id="detail"><p class="empty">Simulate an incident to start an investigation.</p></section>
+<aside id="chat"><h3>Ask IncidentAI</h3><div id="msgs"></div><div class="row"><textarea id="q" rows="1" spellcheck="false" placeholder="Why did you pick this root cause?"></textarea><button id="send">Send</button></div></aside></main>
+<script src="/static/app.js"></script></body></html>
